@@ -1,4 +1,4 @@
-# doctors-appointment-bs5-template - Bootstrap5 Template
+## doctors-appointment-bs5-template - Bootstrap5 Template
 
 A HTML Template Design by Bootstrap5 (HTML, CSS, Javascript, JQuery, Fontawesome)
 
@@ -17,7 +17,7 @@ https://www.alinsworld.com/
 
 ### Used:
 
-Web Page Design : Bootstrap 5, Html5, CSS3
+Bootstrap 5, Html5, CSS3
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
