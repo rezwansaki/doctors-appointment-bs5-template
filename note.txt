@@ -1,0 +1,7 @@
+
+================================================================================================
+Project's Name: 'doctors-appointment-bs5-template'
+Description: A HTML Template Design by Bootstrap5 (HTML, CSS, Javascript, JQuery, Fontawesome)
+Date: (27-Dec-2021 to 28-Dec-2021) 
+Designed by: Md. Rezwan Saki Alin 
+================================================================================================

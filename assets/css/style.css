@@ -1,0 +1,212 @@
+/* Font Import Start Here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/* Font Import End Here */
+
+/* Globally Settings Start Here */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 400;
+}
+/* Globally Settings End Here */
+
+/* Navbar Section Start Here */
+section.top-area {
+  background-color: #197e7c;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 2s all;
+}
+.navbar-light .navbar-brand:hover {
+  color: rgb(136, 221, 210);
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#navbarSupportedContent ul li a {
+  color: white;
+  font-size: 14px;
+  transition: 2s all;
+}
+#navbarSupportedContent ul li a:hover {
+  color: rgb(136, 221, 210);
+  font-size: 14px;
+}
+.btn-appointment {
+  transition: 0.5s all;
+}
+.btn-appointment:hover {
+  color: #333;
+}
+.navbar-brand img {
+  height: 28px;
+  width: 28px;
+  margin: 0 5px;
+}
+/* Navbar Section End Here */
+
+/* Slider Section Start Here */
+.slider-image img {
+  width: 100%;
+}
+.slider-content {
+  padding: 92px 0;
+}
+.slider-content h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #333;
+}
+.slider-content p {
+  font-size: 14px;
+  color: #333;
+  padding: 12px 0;
+}
+.btn-slider {
+  transition: 0.5s all;
+}
+.btn-slider:hover {
+  background-color: #087b8f;
+  color: white;
+}
+/* Slider Section End Here */
+
+/* Get Appointment Guideline Section Start Here */
+.get-apppointment-guideline {
+  text-align: center;
+  margin: 10px 0;
+}
+.app-guide {
+  padding: 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s all;
+}
+.app-guide:hover {
+  padding: 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #aeeccf;
+  border: 1px solid #197e7c;
+}
+.get-apppointment-guideline-heading h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 42px;
+}
+.app-guide span i {
+  font-size: 32px;
+  color: #197e7c;
+}
+.app-guide h3 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 5px;
+}
+.app-guide p {
+  font-size: 12px;
+  text-align: center;
+  line-height: normal;
+}
+/* Get Appointment Guideline Section End Here */
+
+/* Information About This Doctor Start Here */
+.about-doctor-image img {
+  width: 100%;
+}
+section.about-doctor {
+  margin: 85px 15px;
+}
+
+.about-doctor-text h3 {
+  color: #333;
+  font-size: 28px;
+}
+.about-doctor-text p {
+  color: #333;
+  text-align: left;
+  line-height: 2;
+  font-size: 14px;
+}
+.about-doctor-text {
+  padding: 15px 15px;
+}
+.something-special h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.something-special p {
+  color: #333;
+  font-size: 14px;
+  line-height: normal;
+}
+.something-special p i {
+  color: #197e7c;
+  font-size: 14px;
+  padding-right: 5px;
+}
+/* Information About This Doctor End Here */
+
+/* Online Appointment System Start Here */
+.online-appointment-text h3 {
+  color: #333;
+  font-size: 28px;
+}
+.online-appointment-text p {
+  color: #333;
+  font-size: 14px;
+}
+.online-appointment-image img {
+  width: 100%;
+}
+/* Online Appointment System End Here */
+
+/* Contact Section Start Here */
+.contact-area {
+  margin-top: 85px;
+  text-align: center;
+}
+.contact-area .card {
+  padding: 15px 15px;
+  border-color: #197e7c;
+}
+/* Contact Section End Here */
+
+/* Footer Area Start Here */
+.footer-area {
+  margin-top: 45px;
+  padding: 5px;
+  background-color: #333;
+}
+.copyright-info {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.designer-info {
+  color: white;
+  font-size: 12px;
+  text-align: right;
+}
+.designer-info a {
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+}
+/* Footer Area End Here */
