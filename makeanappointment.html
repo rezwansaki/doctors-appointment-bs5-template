@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Appointment</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- css file import start here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- css file import end here -->
+</head>
+
+<body>
+
+    <!-- Navbar Section Start Here -->
+    <section class="top-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+                <div class="container">
+                    <!-- navbar start here -->
+                    <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
+                        <div class="container-fluid ">
+                          <a class="navbar-brand" href="#">
+                            <img src="assets/images/favicon.ico" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                            Doctor's Appointment
+                          </a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse me-2 justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Doctor</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Assistant</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="about.html">About</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Contact</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="login.html">Login</a></li>
+                              <li class="nav-item"><a class="nav-link" aria-current="page" href="register.html">Register</a></li>
+                              <button class="btn mx-2 btn-outline-info btn-sm btn-appointment" type="button">Make an Appointment</button>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                    <!-- navbar end here -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Navbar Section End Here -->
+
+    <!-- Slider Section Start Here -->
+    <section class="slider-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="slider-content">
+              <h1>Make an Appointment</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quia doloribus quibusdam tempore quas eos eaque aperiam ipsum voluptas in. Quae ratione amet deleniti aut ullam. Quisquam, quod. Ducimus, doloribus.</p>
+            <button type="button" class="btn btn-info btn-slider">Make an Appointment</button>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="slider-image">
+              <img src="assets/images/Doctor.jpg" alt="doctor">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider Section End Here -->
+
+     <!-- =========================================================================================== -->
+    <!-- =========================================================================================== -->
+    <!-- These parts will be changed - Start Here -->
+
+    <!-- Appoinment Section Start Here -->
+    <section class="appointment-area">
+      <div class="container">
+       <div class="row">
+          <div class="col-xl-12 appointment-area-main">
+            <div class="appointment-area-main-title">Make an Appoinment</div>
+              <div class="logged-in-user-info">You are logged in as <b>'Md. Rezwan Saki Alin'</b> and your user id is <b>5</b>.</div>
+
+              <div class="logged-in-message">Note: Today is 29-December-2021 and you can apply for 30-December-2021. A total of 80 patients will be seen. Quickly fill out the form and check the email. No more new applications will be accepted after 80 patients.</div>
+
+            <!-- registration start form -->
+            <form action="" method="">
+              <div class="mb-3">
+                <label class="form-label">Appoinment Date</label>
+                <input type="text" class="form-control" id="appoinmentdate" name="appoinmentdate" placeholder="dd/mm/yyyy">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Appoinment Booking Date</label>
+                <input type="text" class="form-control" id="appoinmentbookingdate" name="appoinmentbookingdate" placeholder="dd/mm/yyyy">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Appoinment For</label>
+                <select class="form-select" aria-label="Default select example" id="appoinmentfor" name="appoinmentfor">
+                  <option value="1">Self</option>
+                  <option value="2">Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Patient's Name</label>
+                <input type="text" class="form-control" id="patientname" name="patientname">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Patient's Address</label>
+                <input type="text" class="form-control" id="address" name="address">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Patient's Phone Number</label>
+                <input type="text" class="form-control" id="phonenumber" name="phonenumber">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <select class="form-select" aria-label="Default select example" id="gender" name="gender">
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                  <option value="3">Others</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Patient's Birth Date</label>
+                <input type="text" class="form-control" id="patientbirthdate" name="patientbirthdate" placeholder="dd/mm/yyyy">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Patient's First Visit</label>
+                <select class="form-select" aria-label="Default select example" id="patientfirstvisit" name="patientfirstvisit">
+                  <option value="1">Yes</option>
+                  <option value="2">No</option>
+                </select>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Apply for Appoinment</button>
+              </div>
+            </form>
+            <!-- registration end here form -->
+          </div>
+        </div>
+       </div>
+    </section>
+    <!-- Appointment Section End Here -->
+
+    <!-- These parts will be changed - Start Here -->
+     <!-- =========================================================================================== -->
+    <!-- =========================================================================================== -->
+
+    <!-- Footer Area Start Here -->
+    <section class="footer-area">
+     <div class="container">
+        <div class="row">
+          <div class="col-xl-6 copyright-info">
+            Copyright &copy; 2021 Doctor's Appointment
+          </div>
+          <div class="col-xl-6 designer-info">          
+            Designed and developed by <a href="https://www.alinsworld.com">Alinsworld</a>
+          </div>
+        </div>
+     </div>
+    </section>
+    <!-- Footer Area End Here -->
+    
+
+
+    
+    <!-- js file import start here -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <!-- js file import end here -->
+</body>
+</html>
