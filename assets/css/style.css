@@ -376,3 +376,21 @@ section.about-doctor {
   margin-bottom: 15px;
 }
 /* Apply for Appointment Page End Here */
+
+/* Assistant Section Start Here */
+.assistant-area-menubutton {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.assistant-area-search-patient {
+  margin-bottom: 10px;
+  text-align: right;
+}
+.assistant-area-database-title {
+  margin: 10px 0;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: #043a5e;
+} /* Assistant Section End Here */
