@@ -309,6 +309,19 @@ section.about-doctor {
   border: 1px solid rgb(75, 74, 74);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.login-extra {
+  text-align: center;
+  padding-top: 20px;
+}
+.forget-password a,
+.new-register a {
+  text-decoration: none;
+  color: rgb(14, 99, 168);
+  text-align: 15px;
+}
+.forget-password {
+  padding: 5px;
+}
 /* Login Page End Here */
 
 /* Contact Page Start Here */
@@ -394,3 +407,13 @@ section.about-doctor {
   color: white;
   background-color: #043a5e;
 } /* Assistant Section End Here */
+
+/* Doctor Area Start Here */
+.doctor-area-current-patient {
+  margin: 15px 0;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #043a5e;
+}
+/* Doctor Area End Here */
