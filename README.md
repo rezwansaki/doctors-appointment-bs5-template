@@ -8,6 +8,10 @@ A HTML Template Design by Bootstrap5 (HTML, CSS, Javascript, JQuery, Fontawesome
 
 ### Start Date:
 
+27-Dec-2021
+
+### Last Update:
+
 16-March-2023
 
 ### Developed by:
