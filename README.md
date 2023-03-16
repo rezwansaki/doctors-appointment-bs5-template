@@ -4,11 +4,11 @@ A HTML Template Design by Bootstrap5 (HTML, CSS, Javascript, JQuery, Fontawesome
 
 ### Project Version:
 
-1.0.0
+1.0.1
 
 ### Start Date:
 
-27-Dec-2021
+16-March-2023
 
 ### Developed by:
 
